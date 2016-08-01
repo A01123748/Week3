@@ -79,11 +79,11 @@ class ViewController: UIViewController {
                             let url = cover["medium"] as! String
                             let data:NSData = NSData(contentsOfURL: NSURL(string:url)!)!
                             self.portada.image = UIImage(data: data)
-                            masterViewController.insNewObject(title, autores: authorsText, portada: data)
+                            masterViewController.insNewObject(self.isbn.text!, title: title, autores: authorsText, portada: data)
                         }
                         else{
                             self.portada.image = UIImage(named: "img1.jpg")
-                            masterViewController.insNewObject(title, autores: authorsText, portada: data)
+                            masterViewController.insNewObject(self.isbn.text!, title: title, autores: authorsText, portada: data)
                         }
                         self.isbn.resignFirstResponder()
                     }

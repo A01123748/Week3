@@ -13,6 +13,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var tittle: UITextField!
     @IBOutlet weak var authors: UITextView!
     @IBOutlet weak var portada: UIImageView!
+    @IBOutlet weak var isbn: UITextField!
 
     var detailItem: AnyObject? {
         didSet {
@@ -24,6 +25,9 @@ class DetailViewController: UIViewController {
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = self.detailItem {
+            if let label = self.isbn {
+                label.text = detail.valueForKey("isbn")!.description
+            }
             if let label = self.tittle {
                 label.text = detail.valueForKey("title")!.description
             }

@@ -320,7 +320,7 @@
                                     <constraint firstAttribute="width" constant="279" id="7Tk-rp-DHW"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLV-u0-Yt1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLV-u0-Yt1">
                                 <rect key="frame" x="323" y="93" width="48" height="30"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
@@ -380,7 +380,7 @@
                                 <variation key="widthClass=compact" constant="10"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="32"/>
                             </constraint>
-                            <constraint firstItem="dLV-u0-Yt1" firstAttribute="trailing" secondItem="Ibo-ez-r4i" secondAttribute="trailing" constant="72" id="frJ-An-Fbn">
+                            <constraint firstItem="dLV-u0-Yt1" firstAttribute="trailing" secondItem="Ibo-ez-r4i" secondAttribute="trailing" constant="50" id="frJ-An-Fbn">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="Zur-RG-5rZ" firstAttribute="centerY" secondItem="LYp-3v-Cao" secondAttribute="centerY" constant="-63.5" id="gCz-Ln-OmB">

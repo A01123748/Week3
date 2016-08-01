@@ -31,9 +31,14 @@ class DetailViewController: UIViewController {
                 label.text = detail.valueForKey("authors")!.description
             }
             if let label = self.portada {
-                let data = detail.valueForKey("cover") as! NSData
-                if data.length != 0{
-                    label.image = UIImage(data: data)!
+                let data : NSData? = detail.valueForKey("cover") as? NSData
+                if data != nil{
+                    if data!.length != 0{
+                        label.image = UIImage(data: data!)!
+                    }
+                    else{
+                        label.image = UIImage(named: "img1.jpg")
+                    }
                 }
                 else{
                     label.image = UIImage(named: "img1.jpg")

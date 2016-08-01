@@ -44,7 +44,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         self.performSegueWithIdentifier("searchSegue", sender: self)
     }
     
-    func insNewObject(title:String, autores:String, portada:String){
+    func insNewObject(title:String, autores:String, portada:NSData){
         let context = self.fetchedResultsController.managedObjectContext
          let entity = self.fetchedResultsController.fetchRequest.entity!
          let newManagedObject = NSEntityDescription.insertNewObjectForEntityForName(entity.name!, inManagedObjectContext: context)

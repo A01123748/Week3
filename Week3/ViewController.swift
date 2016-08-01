@@ -73,16 +73,17 @@ class ViewController: UIViewController {
                             }
                         }
                         self.results.text = authorsText
-                        
+                        let data : NSData = NSData()
                         if((dico1["cover"]) != nil){
                             let cover = dico1["cover"] as! NSDictionary
                             let url = cover["medium"] as! String
-                            self.portada.image = UIImage(data: NSData(contentsOfURL: NSURL(string:url)!)!)
-                            masterViewController.insNewObject(title, autores: authorsText, portada: url)
+                            let data:NSData = NSData(contentsOfURL: NSURL(string:url)!)!
+                            self.portada.image = UIImage(data: data)
+                            masterViewController.insNewObject(title, autores: authorsText, portada: data)
                         }
                         else{
                             self.portada.image = UIImage(named: "img1.jpg")
-                            masterViewController.insNewObject(title, autores: authorsText, portada: "img1.jpg")
+                            masterViewController.insNewObject(title, autores: authorsText, portada: data)
                         }
                         self.isbn.resignFirstResponder()
                     }

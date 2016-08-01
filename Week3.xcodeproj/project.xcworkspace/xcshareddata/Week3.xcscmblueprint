@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8252BEA44EB7343D0E5B3765965124EB8EAE9A5A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "726477777B884FE460D18C0B490A1FF0B1A93109" : 0,
+    "8252BEA44EB7343D0E5B3765965124EB8EAE9A5A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F36935C0-8A57-4ADD-88C0-A8C40A92269F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "726477777B884FE460D18C0B490A1FF0B1A93109" : "",
+    "8252BEA44EB7343D0E5B3765965124EB8EAE9A5A" : "Week3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Week3",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Week3.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/A01123748\/Books.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "726477777B884FE460D18C0B490A1FF0B1A93109"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/A01123748\/Week3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8252BEA44EB7343D0E5B3765965124EB8EAE9A5A"
+    }
+  ]
+}

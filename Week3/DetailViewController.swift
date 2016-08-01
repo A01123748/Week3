@@ -31,12 +31,12 @@ class DetailViewController: UIViewController {
                 label.text = detail.valueForKey("authors")!.description
             }
             if let label = self.portada {
-                let url = detail.valueForKey("cover")!.description
-                if url != "img1.jpg"{
-                    self.portada.image = UIImage(data: NSData(contentsOfURL: NSURL(string:url)!)!)
+                let data = detail.valueForKey("cover") as! NSData
+                if data.length != 0{
+                    label.image = UIImage(data: data)!
                 }
                 else{
-                    self.portada.image = UIImage(named: url)
+                    label.image = UIImage(named: "img1.jpg")
                 }
             }
         }
